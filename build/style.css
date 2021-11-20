@@ -1,0 +1,264 @@
+/* General */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  font-family: "PT Serif", Georgia, serif;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 70.62495rem;
+  margin: 0 auto;
+}
+
+.newsletters {
+  font-family: Titillium Web, Helvetica, Trebuchet MS, Arial, sans-serif !important;
+  text-decoration: none;
+  color: #00b3e5;
+}
+
+.signup {
+  color: #999;
+}
+
+#top {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: top;
+  margin-top: 1.5rem;
+}
+
+.left-top {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  height: 3.5rem;
+  width: 21.875rem;
+  font-size: 2.5rem;
+  font-weight: 900;
+  font-family: 'Carter One', cursive;
+}
+
+.sub-btn {
+  background-color: #00b3e5;
+  color: #fff;
+  padding: 0.45833rem;
+  text-align: center;
+  border-radius: 0.188rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.current {
+  border-bottom: 5px solid #000;
+  padding-bottom: 0.375rem;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+.menu-item {
+  margin-right: 0.6rem;
+  color: #002837;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.3125rem;
+  font-family: Titillium Web, Helvetica, Trebuchet MS, Arial, sans-serif;
+  vertical-align: baseline;
+}
+
+.more-arrow {
+  display: flex;
+  align-items: flex-start;
+}
+
+.fa-angle-double-down {
+  vertical-align: top;
+  font-size: 1rem !important;
+  margin-left: 0.45rem;
+  margin-top: 0.125rem;
+}
+
+.tools {
+  display: flex;
+  color: #002837;
+  font-family: Titillium Web, Helvetica, Trebuchet MS, Arial, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.3125rem;
+  vertical-align: baseline;
+  font-weight: 700;
+}
+
+.fa-user-alt,
+.fa-search {
+  color: #002837;
+  font-size: 1.125rem !important;
+  line-height: 1.3125rem !important;
+}
+
+.active {
+  color: #00b3e5;
+}
+
+.fa-search {
+  margin-left: 0.5rem;
+}
+
+main {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.mars {
+  max-width: calc(100% - 20.125rem);
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 2.75rem;
+  font-family: Titillium Web, Helvetica, Trebuchet MS, Arial, sans-serif;
+  line-height: 3.1875rem;
+  font-weight: 700;
+  letter-spacing: -0.0375rem;
+  margin: 0 0 0.93747rem;
+  vertical-align: baseline;
+}
+
+.mars-photo {
+  width: 100%;
+}
+
+.si {
+  line-height: 1.4375rem;
+  font-size: 1.725rem;
+  margin-right: 1rem;
+}
+
+.category {
+  margin: 0.5rem 0 1rem 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.date {
+  font-family: Titillium Web, Helvetica, Trebuchet MS, Arial, sans-serif !important;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  color: #4d4d4d;
+}
+
+.by {
+  font-family: Titillium Web, Helvetica, Trebuchet MS, Arial, sans-serif;
+  font-weight: 400;
+  margin: 0 00.6875rem;
+  color: #4d4d4d;
+}
+
+#author {
+  color: #00b3e5;
+  font-weight: 700;
+  font-family: Titillium Web, Helvetica, Trebuchet MS, Arial, sans-serif !important;
+}
+
+.img-caption {
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+  font-weight: 700;
+  color: #4d4d4d;
+  font-family: Titillium Web, Helvetica, Trebuchet MS, Arial, sans-serif;
+}
+
+.img-credit {
+  font-family: Titillium Web, Helvetica, Trebuchet MS, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+  color: #4d4d4d;
+}
+
+figure {
+  margin-bottom: 1.375rem;
+}
+
+.text {
+  font-size: 1.0625rem;
+  line-height: 1.5625rem;
+  margin: 0 00.6875rem;
+  color: #4d4d4d;
+}
+
+.text-link {
+  color: #00b3e5;
+  text-decoration: none;
+}
+
+.read-more {
+  background: #f5f5f5;
+  margin: 1.375rem 0;
+  padding: 0.6875rem;
+  width: 100%;
+  color: #4d4d4d;
+  letter-spacing: -0.0375rem;
+}
+
+.bold-link {
+  font-weight: 700;
+  font-family: Titillium Web, Helvetica, Trebuchet MS, Arial, sans-serif;
+}
+
+.text-bold {
+  font-weight: 800;
+  color: #000;
+  font-family: Titillium Web, Helvetica, Trebuchet MS, Arial, sans-serif;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+}
+
+.aside-list {
+  display: flex;
+}
+
+.aside-active {
+  background-color: #00b3e5 !important;
+  color: #fff;
+}
+
+.aside-menu {
+  list-style: none;
+  font-family: Titillium Web, Helvetica, Trebuchet MS, Arial, sans-serif;
+  cursor: pointer;
+  border-right: 3px solid #fff;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.0625rem;
+  padding: 0.45833rem;
+  flex: 1 0 auto;
+  background-color: #ddd;
+}

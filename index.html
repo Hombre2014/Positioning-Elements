@@ -5,6 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+  </style>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
     integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
@@ -12,272 +15,306 @@
 </head>
 
 <body>
-  <header>
-    <section id="top">
-      <span class="newsletters">NEWSLETTERS</span>
-      <p class="signup">Sign up to read our regular email newsletters</p>
-      <h1 class="title">NewScientist</h1>
-      <a href="#" title="sunscribe"><button>SUBSCRIBE AND SAVE 59%</button></a>
-    </section>
-    <nav>
-      <ul class="menu">
-        <li class="menu-item">News</li>
-        <li class="menu-item">Podcast</li>
-        <li class="menu-item">Video</li>
-        <li class="menu-item">Technology</li>
-        <li class="menu-item active current">Space</li>
-        <li class="menu-item">Physics</li>
-        <li class="menu-item">Health</li>
-        <li class="menu-item">More <i class="fas fa-angle-double-down"></i></li>
-        <li class="menu-item active">Shop</li>
-        <li class="menu-item active">Courses</li>
-        <li class="menu-item active">Events</li>
-        <li class="menu-item active">Tours</li>
-        <li class="menu-item active">Jobs</li>
-      </ul>
-      <div class="tools">
-        <div class="sign-in">
-          <i class="fas fa-user-alt"></i>
-          <span>Sign In</span>
+  <div class="container">
+    <header>
+      <section id="top">
+        <div class="left-top">
+          <span><a class="newsletters" href="https://www.newscientist.com/sign-up/"
+              title="Newsletters">NEWSLETTERS</a></span>
+          <p class="signup">Sign up to read our regular email <br>newsletters</p>
         </div>
-        <div class="search">
-          <i class="fas fa-search"></i>
-          <span>Search</span>
+        <span class="title">NewScientist</span>
+        <a href="#" title="subscribe"><button class="sub-btn" type="button">SUBSCRIBE AND SAVE 59%</button></a>
+      </section>
+      <nav>
+        <ul class="menu">
+          <li class="menu-item">News</li>
+          <li class="menu-item">Podcast</li>
+          <li class="menu-item">Video</li>
+          <li class="menu-item">Technology</li>
+          <li class="menu-item active current">Space</li>
+          <li class="menu-item">Physics</li>
+          <li class="menu-item">Health</li>
+          <li class="menu-item more-arrow">More <i class="fas fa-angle-double-down"></i></li>
+          <li class="menu-item active">Shop</li>
+          <li class="menu-item active">Courses</li>
+          <li class="menu-item active">Events</li>
+          <li class="menu-item active">Tours</li>
+          <li class="menu-item active">Jobs</li>
+        </ul>
+        <div class="tools">
+          <div class="sign-in">
+            <i class="fas fa-user-alt"></i>
+            <span>Sign In</span>
+          </div>
+          <div class="search">
+            <i class="fas fa-search"></i>
+            <span>Search</span>
+          </div>
         </div>
-      </div>
-    </nav>
-  </header>
+      </nav>
+    </header>
+  </div>
   <hr class="line">
-  <main class="container">
-    <article class="mars">
-      <h2>Ancient lake in Mars's Gale crater may have actually been a small pond</h2>
-      <div class="social-icons">
-        <i class="fab fa-facebook"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-whatsapp-square"></i>
-        <i class="fab fa-linkedin-in"></i>
-        <i class="fab fa-reddit"></i>
-        <i class="fas fa-envelope"></i>
-        <i class="fas fa-print"></i>
-      </div>
-      <span>SPACE</span><span> 6 August 2021</span>
-      <p>By <span id="author">Leah Crane</span></p>
-      <figure class="photo">
-        <img src="https://images.newscientist.com/wp-content/uploads/2021/08/06171920/06-aug_mars-sediments.jpg"
-          alt="Mars photo">
-        <figcaption>
-          <p class="img-caption">The rocks inside Gale crater hint there may not have been a large lake there after all
-          </p>
-          <p class="img-credit">NASA/JPL-Caltech/University of Arizona</p>
-        </figcaption>
-      </figure>
-      <p>
-        A purported ancient lake on Mars may have been far smaller than researchers thought. NASA’s Curiosity rover has
-        been <a class="text-link"
-          href="https://www.newscientist.com/article/2197638-curiosity-is-entering-what-may-be-the-best-area-to-find-life-on-mars/"
-          title="Exploring Gale crater">exploring Gale crater</a> for more than eight years, and while early
-        observations suggested the entire crater may once have been filled with water, a new analysis implies that it
-        just had a series of ponds instead.
-      </p>
-      <p>
-        Previous analyses of data from Curiosity have relied heavily on a measure called the chemical index of
-        alteration to determine how rocks were weathered over time. <a href="https://www.clays.space/"
-          title="Joseph Michalski" class="text-link">Joseph Michalski</a> at the University of Hong Kong and his
-        colleagues have suggested that because this measure was developed for use on Earth, it may not be valid in the
-        extreme Martian climate.
-      </p>
-      <p>
-        Instead, they analysed the concentrations of various compounds that are expected to change based on different
-        types of weathering over time. They found that some of the layers of rock Curiosity examined did interact with
-        water at some point in their past, but more are likely to have formed outside of the water.
-      </p>
-      <p class="read-more">
-        <span class="text-bold">Read more: </span><span><a class="text-link bold-link" title="NASA article"
-            href="Microbes burping methane on Mars may be right next to NASA rover">Microbes burping methane on Mars may
-            be right next to NASA rover</a></span>
-      </p>
-      <p>“Over hundreds of metres of strata, it seems that the only layers that are demonstrably lacustrine [formed in a
-        lake] are the lower few metres,” says Michalski. “Of the rocks visited by the rover… the fraction that is
-        demonstrably lacustrine is something like 1 per cent.”
-      </p>
-      <p>These rocks were mostly in the lowest few metres of <a
-          href="https://www.newscientist.com/article/2271407-marss-crust-may-have-sucked-up-most-of-the-planets-water/"
-          title="Sediments in the crater" class="text-link">sediments in the crater</a>, suggesting the lake was not
-        nearly
-        as deep or extensive as we thought. “There was likely a small lake or more likely a series of small lakes in the
-        floor of Gale crater, but these were shallow ponds,” says Michalski.
-      </p>
-      <p>The rocks that didn’t form in water appeared to be volcanic, so Michalski says that they may have formed out of
-        ash from volcanic eruptions after the water in Gale crater had dried up. Observations by other Mars missions
-        have hinted that these sediments were deposited by wind, not water, so this may solve that mismatch.
-      </p>
-      <span class="bold-text">Journal reference:</span><em class="small-text"> Science Advances,</em><a
-        class="text-link" title="Referene" href="https://www.science.org/doi/10.1126/sciadv.abh2687"></a>
-      <em>Sign up to our free <a class="text-link" title="Launchpad"
-          href="https://www.newscientist.com/sign-up/launchpad/"></a> Launchpad newsletter for a voyage across the
-        galaxy and beyond, every Friday</em>
-      <div>
-        <span class="bold=text">More on these topics: </span>
-        <button type="button">PLANETS</button>
-        <button type="button">MARS</button>
-      </div>
-    </article>
-    <section id="subscribe">
-      <div class="social-icons">
-        <i class="fab fa-facebook"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-whatsapp-square"></i>
-        <i class="fab fa-linkedin-in"></i>
-        <i class="fab fa-reddit"></i>
-        <i class="fas fa-envelope"></i>
-        <i class="fas fa-print"></i>
-      </div>
-      <div class="subscribe-items">
-        <img
-          src="https://images.newscientist.com/wp-content/uploads/2021/10/27172338/3010_cover_uk.jpg?width=300&alt=New+Scientist+issue+3358+cover"
-          alt="New Sciantist cover page">
-        <div>
-          <button class="subs" type="button">SUBSCRIBE</button>
-          <button class="view" type="button">VIEW IN THE APP</button>
-          <button class="buy" type="button">BUY IN PRINT</button>
-        </div>
-      </div>
-    </section>
-    <section id="more">
-      <h2>MORE FROM NEW SCIENTIST</h2>
-      <div class="more">
-        <div class="more-article">
-          <img alt="Tardigrades could survive interstellar travel in extreme hibernation"
-            src="https://images.newscientist.com/wp-content/uploads/2021/10/28120742/PRI_207076922.jpg?width=300">
-          <button class="top-left" type="button">SPACE</button>
-          <a class="more-link" title="Space link"
-            href="https://www.newscientist.com/article/2294925-tardigrades-could-survive-interstellar-travel-in-extreme-hibernation/">Tardigrades
-            could survive interstellar travel in extreme hibernation</a>
-        </div>
-        <div class="more-article">
-          <img alt="Space station"
-            src="https://images.newscientist.com/wp-content/uploads/2021/10/28161327/PRI_207245695.jpg?width=300">
-          <button class="top-left" type="button">SPACE</button>
-          <a class="more-link" title="Space link"
-            href="https://www.newscientist.com/article/2295273-can-blue-origin-help-replace-the-international-space-station/">Can
-            Blue Origin help replace the International Space Station?</a>
-        </div>
-        <div class="more-article">
-          <img alt="Space station"
-            src="https://images.newscientist.com/wp-content/uploads/2021/10/27153437/PRI_207078102.jpg?width=300">
-          <a class="more-link" title="Tom Hanks"
-            href="https://www.newscientist.com/article/mg25133581-400-dont-miss-tom-hanks-beats-the-apocalypse-with-a-dog-and-a-robot/">Don't
-            miss: Tom Hanks beats the apocalypse with a dog and a robot</a>
-        </div>
-        <div class="more-article">
-          <img alt="Puzzle #137"
-            src="https://images.newscientist.com/wp-content/uploads/2021/10/27153744/PRI_205918884.jpg?width=300">
-          <a class="more-link" title="Puzzle #137"
-            href="https://www.newscientist.com/article/mg25133582-800-puzzle-137-did-james-end-up-with-a-good-halloween-haul/">Puzzle
-            #137: Did James end up with a good Halloween haul?</a>
-        </div>
-      </div>
-    </section>
-  </main>
-  <aside>
-    <ul class="aside-list">
-      <li class="aside-active aside-menu">TRENDING</li>
-      <li class="aside-menu">LATEST</li>
-      <li class="aside-menu">VIDEO</li>
-      <li class="aside-menu">FREE</li>
-    </ul>
-    <section class="trending">
-      <ol>
-        <li class="aside-link"><a title="Skin patch"
-            href="https://www.newscientist.com/article/2294967-skin-patch-coated-in-covid-19-vaccine-may-work-better-than-injections/">Skin
-            patch coated in covid-19 vaccine may work better than injections</a>
-        </li>
-        <li class="aside-link"><a title="USA Army"
-            href="https://www.newscientist.com/article/2295435-us-army-will-test-its-most-powerful-laser-weapon-ever-next-year/US Army will test its most powerful laser weapon ever next year/">US
-            Army will test its most powerful laser weapon ever next year</a>
-        </li>
-        <li class="aside-link"><a title="New human species"
-            href="https://www.newscientist.com/article/2295406-new-human-species-has-been-named-homo-bodoensis-but-it-may-not-stick/">New
-            human species has been named Homo bodoensis - but it may not stick</a>
-        </li>
-        <li class="aside-link"><a title="Metaverse"
-            href="https://www.newscientist.com/article/2295438-why-has-facebook-changed-its-name-to-meta-and-what-is-the-metaverse/">Why
-            has Facebook changed its name to Meta and what is the metaverse</a>
-        </li>
-        <li class="aside-link"><a title="Minecraft"
-            href="https://www.newscientist.com/article/mg23030713-100-how-is-helping-children-with-autism-make-new-friends/">How
-            <em>Minecraft</em> is helping children with autism make new friends</a>
-        </li>
-      </ol>
-    </section>
-  </aside>
-  <footer>
-    <h3>Sign up to our newsletter</h3>
-    <div class="sign-up">
-      <form class="news-signup">
-        <label for="signup-email">Enter your email address to get started</label>
-        <input type="email" name="signup" id="signup-email" placeholder="Your email" required>
-        <input type="submit" value="SIGN UP" class="signup-btn">
-      </form>
-    </div>
-    <section class="footer-links">
-      <ul class="link-list">
-        <li class="footer-link-item"><a title="Contact us" href="https://www.newscientist.com/contact-us/">Contact
-            us</a></li>
-        <li class="footer-link-item"><a title="help" href="https://www.newscientist.com/help/">Help</a></li>
-        <li class="footer-link-item"><a title="About us" href="https://www.newscientist.com/about-us/">About us</a></li>
-        <li class="footer-link-item"><a title="Privacy policy" href="https://www.newscientist.com/privacy/">Privacy
-            policy</a></li>
-        <li class="footer-link-item"><a title="Cookie policy" href="https://www.newscientist.com/cookie-policy/">Cookie
-            policy</a></li>
-        <li class="footer-link-item"><a title="Terms & conditions" href="https://www.newscientist.com/terms/">Terms &
-            conditions</a></li>
-      </ul>
-      <hr>
-      <ul class="link-list">
-        <li class="footer-link-item"><a title="Contact us" href="https://www.newscientist.com/contact-us/">Advertise</a>
-        </li>
-        <li class="footer-link-item"><a title="help" href="https://www.newscientist.com/help/">Write for us</a></li>
-        <li class="footer-link-item"><a title="About us" href="https://www.newscientist.com/about-us/">Events</a></li>
-        <li class="footer-link-item"><a title="Privacy policy" href="https://www.newscientist.com/privacy/">Science
-            jobs</a></li>
-        <li class="footer-link-item"><a title="Cookie policy"
-            href="https://www.newscientist.com/cookie-policy/">Syndication</a></li>
-        <li class="footer-link-item"><a title="Terms & conditions" href="https://www.newscientist.com/terms/">RSS
-            feeds</a></li>
-      </ul>
-      <ul class="link-list">
-        <li class="footer-link-item"><a title="Contact us" href="https://www.newscientist.com/contact-us/">Gift
-            subscriptions</a></li>
-        <li class="footer-link-item"><a title="help" href="https://www.newscientist.com/help/">Student subscriptions</a>
-        </li>
-        <li class="footer-link-item"><a title="About us" href="https://www.newscientist.com/about-us/">Educational
-            subscription</a></li>
-        <li class="footer-link-item"><a title="Privacy policy" href="https://www.newscientist.com/privacy/">Corporate
-            subscription</a></li>
-      </ul>
-    </section>
-    <a title="Cookie setings" href="https://www.newscientist.com/cookie-policy/"><button type="button"
-        title="Cookie setings">COOKIE SETINGS</button></a>
-    <section class="app">
-      <div class="Google-play">
-        <h3>GET THE APP</h3>
-        <img src="img/google-play-logo.png" alt="Google play">
-      <div class="follow">
-        <h3>FOLLOW US</h3>
+  <div class="container">
+    <main>
+      <article class="mars">
+        <h1>Ancient lake in Mars's Gale crater may have actually been a small pond</h1>
         <div class="social-icons">
-          <i class="fab fa-facebook"></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-linkedin-in"></i>
-          <i class="fab fa-pinterest"></i>
+          <i class="fab si fa-facebook"></i>
+          <i class="fab si fa-twitter"></i>
+          <i class="fab si fa-whatsapp-square"></i>
+          <i class="fab si fa-linkedin-in"></i>
+          <i class="fab si fa-reddit"></i>
+          <i class="fas si fa-envelope"></i>
+          <i class="fas si fa-print"></i>
         </div>
+        <div class="category"><span class="bold">SPACE</span><span class="date"> 6 August 2021</span></div>
+        <p class="by">By <span id="author">Leah Crane</span></p>
+        <figure class="photo">
+          <img class="mars-photo"
+            src="https://images.newscientist.com/wp-content/uploads/2021/08/06171920/06-aug_mars-sediments.jpg"
+            alt="Mars photo">
+          <figcaption>
+            <p class="img-caption">The rocks inside Gale crater hint there may not have been a large lake there after
+              all
+            </p>
+            <p class="img-credit">NASA/JPL-Caltech/University of Arizona</p>
+          </figcaption>
+        </figure>
+        <p class="text">
+          A purported ancient lake on Mars may have been far smaller than researchers thought. NASA’s Curiosity rover
+          has been <a class="text-link"
+            href="https://www.newscientist.com/article/2197638-curiosity-is-entering-what-may-be-the-best-area-to-find-life-on-mars/"
+            title="Exploring Gale crater">exploring Gale crater</a> for more than eight years, and while early
+          observations suggested the entire crater may once have been filled with water, a new analysis implies that it
+          just had a series of ponds instead.
+        </p>
+        <p class="text">
+          Previous analyses of data from Curiosity have relied heavily on a measure called the chemical index of
+          alteration to determine how rocks were weathered over time. <a href="https://www.clays.space/"
+            title="Joseph Michalski" class="text-link">Joseph Michalski</a> at the University of Hong Kong and his
+          colleagues have suggested that because this measure was developed for use on Earth, it may not be valid in the
+          extreme Martian climate.
+        </p>
+        <p class="text">
+          Instead, they analysed the concentrations of various compounds that are expected to change based on different
+          types of weathering over time. They found that some of the layers of rock Curiosity examined did interact with
+          water at some point in their past, but more are likely to have formed outside of the water.
+        </p>
+        <p class="read-more">
+          <span class="text-bold">Read more: </span><span><a class="text-link bold-link" title="NASA article"
+              href="https://www.newscientist.com/article/2294925-tardigrades-could-survive-interstellar-travel-in-extreme-hibernation/">Microbes
+              burping methane on Mars may be right next to NASA rover</a></span>
+        </p>
+        <p class="text">“Over hundreds of metres of strata, it seems that the only layers that are demonstrably
+          lacustrine [formed in
+          a
+          lake] are the lower few metres,” says Michalski. “Of the rocks visited by the rover… the fraction that is
+          demonstrably lacustrine is something like 1 per cent.”
+        </p>
+        <p class="text">These rocks were mostly in the lowest few metres of <a
+            href="https://www.newscientist.com/article/2271407-marss-crust-may-have-sucked-up-most-of-the-planets-water/"
+            title="Sediments in the crater" class="text-link">sediments in the crater</a>, suggesting the lake was not
+          nearly
+          as deep or extensive as we thought. “There was likely a small lake or more likely a series of small lakes in
+          the
+          floor of Gale crater, but these were shallow ponds,” says Michalski.
+        </p>
+        <p class="text">The rocks that didn’t form in water appeared to be volcanic, so Michalski says that they may
+          have formed out
+          of
+          ash from volcanic eruptions after the water in Gale crater had dried up. Observations by other Mars missions
+          have hinted that these sediments were deposited by wind, not water, so this may solve that mismatch.
+        </p>
+        <div class="reference">
+          <span class="text-bold">Journal reference:</span><em class="small-text"> Science Advances,</em><a
+            class="text-link" title="Referene" href="https://www.science.org/doi/10.1126/sciadv.abh2687">DOI:
+            10.1126/sciadv.abh2687</a>
+        </div>
+        <em>Sign up to our free <a class="text-link" title="Launchpad"
+            href="https://www.newscientist.com/sign-up/launchpad/">Launchpad newsletter</a> for a voyage across the
+          galaxy and beyond, every Friday</em>
+        <div class="related">
+          <span class="text-bold">More on these topics: </span>
+          <button class="subscribe-button" type="button">PLANETS</button>
+          <button class="subscribe-button" type="button">MARS</button>
+        </div>
+        <section id="subscribe">
+          <div class="social-icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-whatsapp-square"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-reddit"></i>
+            <i class="fas fa-envelope"></i>
+            <i class="fas fa-print"></i>
+          </div>
+          <div class="subscribe-items">
+            <img class="magazin"
+              src="https://images.newscientist.com/wp-content/uploads/2021/10/27172338/3010_cover_uk.jpg?width=300&alt=New+Scientist+issue+3358+cover"
+              alt="New Sciantist cover page">
+            <div class="buttons-3">
+              <button class="subs" type="button">SUBSCRIBE</button>
+              <button class="view" type="button">VIEW IN THE APP</button>
+              <button class="buy" type="button">BUY IN PRINT</button>
+            </div>
+          </div>
+        </section>
+        <section id="more">
+          <h2>MORE FROM NEW SCIENTIST</h2>
+          <div class="more-news">
+            <div class="more-article">
+              <img alt="Tardigrades could survive interstellar travel in extreme hibernation"
+                src="https://images.newscientist.com/wp-content/uploads/2021/10/28120742/PRI_207076922.jpg?width=300">
+              <span class="top-left space">SPACE</span>
+              <a class="more-link" title="Space link"
+                href="https://www.newscientist.com/article/2294925-tardigrades-could-survive-interstellar-travel-in-extreme-hibernation/">Tardigrades
+                could survive interstellar travel in extreme hibernation</a>
+            </div>
+            <div class="more-article">
+              <img alt="Space station"
+                src="https://images.newscientist.com/wp-content/uploads/2021/10/28161327/PRI_207245695.jpg?width=300">
+              <span class="top-left space">SPACE</span>
+              <a class="more-link" title="Space link"
+                href="https://www.newscientist.com/article/2295273-can-blue-origin-help-replace-the-international-space-station/">Can
+                Blue Origin help replace the International Space Station?</a>
+            </div>
+            <div class="more-article">
+              <img alt="Space station"
+                src="https://images.newscientist.com/wp-content/uploads/2021/10/27153437/PRI_207078102.jpg?width=300">
+              <span class="top-left science">SCIENCE</span>
+              <a class="more-link" title="Tom Hanks"
+                href="https://www.newscientist.com/article/mg25133581-400-dont-miss-tom-hanks-beats-the-apocalypse-with-a-dog-and-a-robot/">Don't
+                miss: Tom Hanks beats the apocalypse with a dog and a robot</a>
+            </div>
+            <div class="more-article">
+              <img alt="Puzzle #137"
+                src="https://images.newscientist.com/wp-content/uploads/2021/10/27153744/PRI_205918884.jpg?width=300">
+              <span class="top-left games">GAMES</span>
+              <a class="more-link" title="Puzzle #137"
+                href="https://www.newscientist.com/article/mg25133582-800-puzzle-137-did-james-end-up-with-a-good-halloween-haul/">Puzzle
+                #137: Did James end up with a good Halloween haul?</a>
+            </div>
+          </div>
+        </section>
+      </article>
+      <aside>
+        <ul class="aside-list">
+          <li class="aside-active aside-menu">TRENDING</li>
+          <li class="aside-menu">LATEST</li>
+          <li class="aside-menu">VIDEO</li>
+          <li class="aside-menu">FREE</li>
+        </ul>
+        <section class="trending">
+          <ol>
+            <li class="aside-link"><a title="Skin patch"
+                href="https://www.newscientist.com/article/2294967-skin-patch-coated-in-covid-19-vaccine-may-work-better-than-injections/">Skin
+                patch coated in covid-19 vaccine may work better than injections</a>
+              <span class="number"> 1</span>
+            </li>
+            <li class="aside-link"><a title="USA Army"
+                href="https://www.newscientist.com/article/2295435-us-army-will-test-its-most-powerful-laser-weapon-ever-next-year/">US
+                Army will test its most powerful laser weapon ever next year</a>
+              <span class="number"> 2</span>
+            </li>
+            <li class="aside-link"><a title="New human species"
+                href="https://www.newscientist.com/article/2295406-new-human-species-has-been-named-homo-bodoensis-but-it-may-not-stick/">New
+                human species has been named Homo bodoensis - but it may not stick</a>
+              <span class="number"> 3</span>
+            </li>
+            <li class="aside-link"><a title="Metaverse"
+                href="https://www.newscientist.com/article/2295438-why-has-facebook-changed-its-name-to-meta-and-what-is-the-metaverse/">Why
+                has Facebook changed its name to Meta and what is the metaverse</a>
+              <span class="number"> 4</span>
+            </li>
+            <li class="aside-link"><a title="Minecraft"
+                href="https://www.newscientist.com/article/mg23030713-100-how-is-helping-children-with-autism-make-new-friends/">How
+                Minecraft is helping children with autism make new friends</a>
+              <span class="number"> 5</span>
+            </li>
+          </ol>
+        </section>
+      </aside>
+    </main>
+  </div>
+  <footer>
+    <div class="container">
+      <h3>Sign up to our newsletter</h3>
+      <div class="sign-up">
+        <form class="news-signup">
+          <label for="signup-email">Enter your email address to get started</label>
+          <input type="email" name="signup" id="signup-email" placeholder="Your email" required>
+          <input type="submit" value="SIGN UP" class="signup-btn">
+        </form>
       </div>
-    </section>
-    <div class="bottom-line">
-      <span>&reg; Copyright New Scientist Ltd.</span>
-      <div class="last">
-        <span id="back-to-top">Back to top</span>
-        <i class="far fa-arrow-alt-circle-up"></i>
+      <section class="footer-links">
+        <ul class="link-list">
+          <li class="footer-link-item"><a title="Contact us" href="https://www.newscientist.com/contact-us/">Contact
+              us</a></li>
+          <li class="footer-link-item"><a title="help" href="https://www.newscientist.com/help/">Help</a></li>
+          <li class="footer-link-item"><a title="About us" href="https://www.newscientist.com/about-us/">About us</a>
+          </li>
+          <li class="footer-link-item"><a title="Privacy policy" href="https://www.newscientist.com/privacy/">Privacy
+              policy</a></li>
+          <li class="footer-link-item"><a title="Cookie policy"
+              href="https://www.newscientist.com/cookie-policy/">Cookie
+              policy</a></li>
+          <li class="footer-link-item"><a title="Terms & conditions" href="https://www.newscientist.com/terms/">Terms &
+              conditions</a></li>
+        </ul>
+        <hr class="line-footer">
+        <ul class="link-list">
+          <li class="footer-link-item"><a title="Contact us"
+              href="https://www.newscientist.com/contact-us/">Advertise</a>
+          </li>
+          <li class="footer-link-item"><a title="help" href="https://www.newscientist.com/help/">Write for us</a></li>
+          <li class="footer-link-item"><a title="About us" href="https://www.newscientist.com/about-us/">Events</a></li>
+          <li class="footer-link-item"><a title="Privacy policy" href="https://www.newscientist.com/privacy/">Science
+              jobs</a></li>
+          <li class="footer-link-item"><a title="Cookie policy"
+              href="https://www.newscientist.com/cookie-policy/">Syndication</a></li>
+          <li class="footer-link-item"><a title="Terms & conditions" href="https://www.newscientist.com/terms/">RSS
+              feeds</a></li>
+        </ul>
+        <ul class="link-list">
+          <li class="footer-link-item"><a title="Contact us" href="https://www.newscientist.com/contact-us/">Gift
+              subscriptions</a></li>
+          <li class="footer-link-item"><a title="help" href="https://www.newscientist.com/help/">Student
+              subscriptions</a>
+          </li>
+          <li class="footer-link-item"><a title="About us" href="https://www.newscientist.com/about-us/">Educational
+              subscription</a></li>
+          <li class="footer-link-item"><a title="Privacy policy" href="https://www.newscientist.com/privacy/">Corporate
+              subscription</a></li>
+        </ul>
+      </section>
+      <a class="cookies-link" title="Cookie setings" href="https://www.newscientist.com/cookie-policy/"><button
+          class="cookies" type="button" title="Cookie setings">COOKIE SETINGS</button></a>
+      <section class="app">
+        <div class="get-the-app">
+          <h3>GET THE APP</h3>
+          <div class="logos">
+            <img src="img/google-play-logo.png" alt="Google play" width="110" height="34">
+            <img src="img/apple.png" alt="Apple store" width="120" height="34">
+          </div>
+        </div>
+        <div class="follow">
+          <h3>FOLLOW US</h3>
+          <div class="social-icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-pinterest"></i>
+          </div>
+        </div>
+      </section>
+      <div class="bottom-line">
+        <span>&reg; Copyright New Scientist Ltd.</span>
+        <div class="last">
+          <span id="back-to-top">Back to top</span>
+          <i class="far fa-arrow-alt-circle-up"></i>
+        </div>
       </div>
     </div>
   </footer>
